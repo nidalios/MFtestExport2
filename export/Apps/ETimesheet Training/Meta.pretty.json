@@ -1,0 +1,17 @@
+{
+    "subType": "customapp",
+    "description": "ETSUAT",
+    "intSvcs": [
+        {
+            "name": "DBReset",
+            "version": "1.0"
+        },
+        {
+            "name": "AuditLogJavaService",
+            "version": "1.0"
+        }
+    ],
+    "identity": [
+        "sgnetimesheetldap"
+    ]
+}

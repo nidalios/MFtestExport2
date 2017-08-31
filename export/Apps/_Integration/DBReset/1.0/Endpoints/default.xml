@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<endpoint encryptSecureInfo="false" name="default" type="RDBMS">
+    <apiThrottling/>
+    <config>
+        <entry>
+            <key>rdbmsDescription</key>
+        </entry>
+        <entry>
+            <key>rdbmsDriverClass</key>
+            <value>com.mysql.jdbc.Driver</value>
+        </entry>
+        <entry>
+            <key>rdbmsConnectionUrl</key>
+            <value>jdbc:mysql://sgn-test.cg9svvjrgf5g.eu-west-1.rds.amazonaws.com/timesheet_training?</value>
+        </entry>
+        <entry>
+            <key>rdbmsUserId</key>
+            <value>SGNtstuser</value>
+        </entry>
+        <entry>
+            <key>rdbmsType</key>
+            <value>MYSQL</value>
+        </entry>
+        <entry>
+            <key>Password</key>
+            <value>sgn079klliu87g401g</value>
+        </entry>
+    </config>
+</endpoint>

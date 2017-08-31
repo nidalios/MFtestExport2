@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataSource xmlns:ns2="http://www.kony.com/ns/mapper" ID="27802" Type="database" Class="com.kony.sync.services.datasource.jdbc.JDBCDatasource2">
+    <Database Name="27802" Type="MYSQL" UserName="SGNtstuser" Password="sgn079klliu87g401g" IsJNDIDataSource="false" JndiORJdbcURL="jdbc:mysql://sgn-test.cg9svvjrgf5g.eu-west-1.rds.amazonaws.com/timesheet_training?" DriverName="com.mysql.jdbc.Driver"/>
+</DataSource>

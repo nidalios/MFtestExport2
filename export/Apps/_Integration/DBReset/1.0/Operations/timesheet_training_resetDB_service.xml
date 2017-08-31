@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" endpoint="default" groupType="" id="timesheet_training_resetDB_service" passwordencrypted="false" security="public" type="dataAdapterConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value="function cacheIDFix(){&#xA;logger.debug('Tesing put method of HashMap');&#xA;serviceInputParams.put('cacheid','IGNORE');&#xA;return true;&#xA;} cacheIDFix();"/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="endpointUrl" value=""/>
+        <config-param api-version="" appid="" name="jdbc_driver" value="com.mysql.jdbc.Driver"/>
+        <config-param api-version="" appid="" name="jdbc_address" value="jdbc:mysql://sgn-test.cg9svvjrgf5g.eu-west-1.rds.amazonaws.com/timesheet_training?"/>
+        <config-param api-version="" appid="" name="opcode" value="service"/>
+        <config-param api-version="" appid="" name="adaptertype" value="KONY_DATABASE"/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="entitymetadata" value="{&quot;storedProcMetadata&quot;:{&quot;inputParamMetadata&quot;:{&quot;paramMetadataList&quot;:[]},&quot;schema&quot;:&quot;timesheet_training&quot;,&quot;outputParamMetadata&quot;:{&quot;paramMetadataList&quot;:[]},&quot;catalog&quot;:&quot;timesheet_training&quot;,&quot;name&quot;:&quot;resetDB&quot;}}"/>
+        <config-param api-version="" appid="" name="user" value="SGNtstuser"/>
+        <config-param api-version="" appid="" name="password" value="sgn079klliu87g401g"/>
+    </service-config>
+    <service-input passthrough="false"/>
+    <service-output passthrough="false"/>
+</service>

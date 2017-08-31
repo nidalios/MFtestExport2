@@ -1,0 +1,20 @@
+{
+    "strategy": "OTASync",
+    "nameSpace": "downloadscope",
+    "dataSource": "27798",
+    "changeTrackingPolicyType": "datasource",
+    "softDeleteFlag": false,
+    "lastUpdateTimeStamp": true,
+    "conflictPolicyType": "clientwins",
+    "syncJar": null,
+    "className": null,
+    "operations": {
+        "Operation": [
+            
+        ]
+    },
+    "identityProviders": [
+        
+    ],
+    "dataSourceType": "database"
+}
