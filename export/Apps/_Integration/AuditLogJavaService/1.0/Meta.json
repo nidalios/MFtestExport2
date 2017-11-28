@@ -1,7 +1,0 @@
-{
-  "serviceType" : "integration",
-  "jars" : [ {
-    "name" : "AuditLogService.jar",
-    "type" : "servicejar"
-  } ]
-}
